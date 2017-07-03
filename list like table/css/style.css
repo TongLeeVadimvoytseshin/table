@@ -1,0 +1,135 @@
+html { margin:0; padding:0;}
+body { margin:0; padding:0; color:#666; font:normal 18px/28px Times New Roman, Arial, sans-serif; background:#fff;}
+.clear { clear:both;}
+p { margin:0; padding:10px 0;}
+a { color:#0000ff; text-decoration:underline;}
+a:hover { color:#7777ff;}
+a img { border:none;}
+h1, h2, h3, h4, h5, h6 { margin:0; padding:0; font-weight:bold; color:#000;}
+h1 { padding:20px 0 24px; line-height:1.4em;}
+h2 { padding:0 0 12px;}
+strong { font-weight:bold;}
+em { font-style:italic;}
+form, menu, iframe { display:block; margin:0; padding:0; border:none;}
+ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
+* { outline:none;}
+
+.mywrapper {
+ min-width:920px;
+}
+
+.resize {
+	width:880px;
+	margin:0 auto;
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 62px;
+	color:#0051AC;
+	padding-bottom:50px;
+}
+
+h1:first-letter {
+	color:red;
+}
+
+dl {
+	display:table;
+	width:50%;
+	border:1px solid #fff;
+	background:#CFCFCF;
+	font-weight:bold;
+}
+
+p {
+	display:table-row;
+}
+
+dt, dd {
+	display:table-cell;
+	border:1px solid #fff;
+}
+
+dt {
+	width:60%;
+	padding-left:45px;
+}
+
+dd {
+	text-align:right;
+	padding-right:10px;
+}
+
+dl dt.weight {
+	position:relative;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+dl dt.weight:before {
+  content:"";
+  position:absolute;
+  height:0;
+  display:block;
+  width:24px;
+  height:24px;
+  background:url(../images/icon_weight.png) no-repeat;
+  left:11px;
+  top:4px;
+}
+
+dl>.size {
+	position:relative;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+dl>.size:before {
+  content:"";
+  position:absolute;
+  height:0;
+  display:block;
+  width:24px;
+  height:24px;
+  background:url(../images/icon_size.png) no-repeat;
+  left:11px;
+  top:9px;
+}
+
+dl>.power {
+	position:relative;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+dl>.power:before {
+  content:"";
+  position:absolute;
+  height:0;
+  display:block;
+  width:24px;
+  height:24px;
+  background:url(../images/icon_box.png) no-repeat;
+  left:11px;
+  top:5px;
+}
+
+dl>.price {
+	position:relative;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+dl>.price:before {
+  content:"";
+  position:absolute;
+  height:0;
+  display:block;
+  width:24px;
+  height:24px;
+  background:url(../images/icon_label.png) no-repeat;
+  left:11px;
+  top:6px;
+}
+
