@@ -1,0 +1,139 @@
+html { margin:0; padding:0;}
+body { margin:0; padding:0; color:#666; font:normal 18px/28px Times New Roman, Arial, sans-serif; background:#fff;}
+.clear { clear:both;}
+p { margin:0; padding:0;}
+a { color:#0000ff; text-decoration:underline;}
+a:hover { color:#7777ff;}
+a img { border:none;}
+h1, h2, h3, h4, h5, h6 { margin:0; padding:0; font-weight:bold; color:#000;}
+h1 { padding:20px 0 20px; line-height:1.4em;}
+h2 { padding:0 0 12px;}
+strong { font-weight:bold;}
+em { font-style:italic;}
+form, menu, iframe { display:block; margin:0; padding:0; border:none;}
+ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
+* { outline:none;}
+
+.mywrapper {
+	min-width:920px;
+}
+
+.resize {
+	width:880px;
+	margin:0 auto;
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 62px;
+	color:#0051AC;
+}
+
+h1:first-letter {
+	color:red;
+}
+
+ul {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	border:1px solid #fff;
+}
+
+ul li {
+	flex-grow:1;
+	border:1px solid #fff;
+}
+
+a {
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	line-height: 24px;
+	font-size: 20px;
+	padding:7px 0;
+	color:black;
+	background:#CFCFCF;
+}
+
+a:hover {
+	color:black;
+	background:#AFAFAF;
+}
+
+.menu, .menu_1, .menu_2 {
+	padding-bottom: 53px;
+}
+
+ul>.first_li>a {
+	padding-left:25px;
+	position:relative;
+}
+
+ul>.first_li>a:before {
+	content:"";
+	position:absolute;
+	background:url(../images/sprite.png) no-repeat 0 0;
+	height:24px;
+	width:24px;
+	left:16px;
+	top:5px;
+}
+
+ul>.last_li>a {
+	position:relative;
+	padding-left:180px;
+	min-height:24px;
+}
+
+ul>.last_li>a:before {
+	content:"";
+	position:absolute;
+	display:block;
+	background:url(../images/sprite.png) no-repeat -26px 0;
+	height:32px;
+	width:32px;
+	left:116px;
+	top:3px;
+}
+
+ul>.last_li>a:after {
+	content:"";
+	position:absolute;
+	display:block;
+	background:url(../images/sprite.png) no-repeat -60px 0;
+	height:32px;
+	width:32px;
+	left:153px;
+	top:3px;
+}
+
+ul>.last_li>a>span:before {
+	content:"";
+	position:absolute;
+	display:block;
+	background:url(../images/sprite.png) no-repeat -93px 0;
+	height:32px;
+	width:32px;
+	left:188px;
+	top:3px;
+}
+
+ul>.drop_menu {
+	position:relative;
+}
+
+ul>.drop_menu>ul {
+	display:none;
+	position:absolute;
+	width:100%;
+}
+
+ul>.drop_menu:hover ul{
+	display:block;
+}
+
+.menu_2 ul>li.link_li {
+	width:50px;
+}
